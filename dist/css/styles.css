@@ -11317,6 +11317,6 @@ section#contact form#contactForm :-ms-input-placeholder {
 .hero-whatsapp {
   position: absolute;
   right: 40px;
-  bottom: 40px;
+  bottom: 120px;   
   z-index: 10;
 }
