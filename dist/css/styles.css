@@ -11375,3 +11375,23 @@ header.masthead {
   background-position: center;
   color: #fff;
 }
+/* Contact title readability box */
+#contact .contact-title-box {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.85); /* hafif şeffaf beyaz */
+    padding: 30px 40px;
+    border-radius: 12px;
+    margin-bottom: 40px;
+}
+
+/* Başlık rengi */
+#contact .contact-title-box h2 {
+    color: #212529;
+    margin-bottom: 10px;
+}
+
+/* Alt yazı rengi */
+#contact .contact-title-box h3 {
+    color: #555;
+    font-style: italic;
+}
