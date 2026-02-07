@@ -11552,3 +11552,34 @@ section#contact textarea:focus {
 .team-email a:hover {
   text-decoration: underline;
 }
+.team-divider {
+  width: 40px;
+  height: 1px;
+  background-color: #1e5aa7;
+  margin: 12px auto 16px;
+}
+
+/* Button */
+.team-btn {
+  display: inline-block;
+  padding: 10px 18px;
+  border: 1px solid #1e5aa7;
+  color: #1e5aa7;
+  font-size: 14px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: all 0.25s ease;
+}
+
+.team-btn:hover {
+  background-color: #1e5aa7;
+  color: #fff;
+}
+.team-divider {
+  width: 40px;
+  height: 1px;
+  background-color: #1e5aa7;
+  margin: 12px auto 16px;
+}
+
+
