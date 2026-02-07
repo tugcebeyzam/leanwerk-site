@@ -11532,3 +11532,15 @@ section#contact textarea:focus {
   box-shadow: none !important;
   background: transparent !important;
 }
+.team-member {
+  text-align: center;
+}
+
+.team-member::after {
+  content: "";
+  display: block;
+  width: 60px;              /* çizgi uzunluğu */
+  height: 1px;              /* ince çizgi */
+  background-color: #1e5aa7; /* kurumsal mavi */
+  margin: 14px auto 10px;   /* üst-alt boşluk */
+}
