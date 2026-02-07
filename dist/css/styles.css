@@ -11527,3 +11527,8 @@ section#contact textarea:focus {
   color: #3b4a6b;
   line-height: 1.6;
 }
+.team-member img {
+  border: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+}
