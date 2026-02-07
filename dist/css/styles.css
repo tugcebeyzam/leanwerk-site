@@ -11363,3 +11363,14 @@ header.masthead {
 .section-white * {
   background-color: transparent;
 }
+/* Custom Contact Section (LeanWerk style) */
+#contact {
+  background: linear-gradient(
+    rgba(13, 71, 161, 0.85),
+    rgba(13, 71, 161, 0.85)
+  ),
+  url("../assets/img/contact-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
