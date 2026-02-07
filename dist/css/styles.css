@@ -11408,3 +11408,17 @@ header.masthead {
 #contact textarea.form-control::placeholder {
     color: #6c757d;
 }
+/* FORCE blue transparent inputs */
+#contact input.form-control,
+#contact textarea.form-control {
+    background-color: rgba(200, 225, 255, 0.75) !important;
+    border: none !important;
+    border-radius: 12px;
+    color: #1f2d3d;
+}
+
+/* Placeholder text */
+#contact input.form-control::placeholder,
+#contact textarea.form-control::placeholder {
+    color: rgba(31, 45, 61, 0.6);
+}
