@@ -11488,3 +11488,42 @@ section#contact textarea:focus {
   color: #ffffff;
   padding: 100px 0;
 }
+.schwerpunkte-modern {
+  background-color: #eef2fb;
+  padding: 100px 0;
+}
+
+.schwerpunkte-left h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #0a2a66;
+  line-height: 1.2;
+}
+
+.schwerpunkte-right .item {
+  margin-bottom: 35px;
+}
+
+.schwerpunkte-right h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #0a2a66;
+  position: relative;
+  padding-left: 18px;
+}
+
+.schwerpunkte-right h4::before {
+  content: "■";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #2bb0e6;
+  font-size: 14px;
+}
+
+.schwerpunkte-right p {
+  margin: 6px 0 0 18px;
+  font-size: 15px;
+  color: #3b4a6b;
+  line-height: 1.6;
+}
