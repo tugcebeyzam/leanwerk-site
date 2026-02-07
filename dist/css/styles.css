@@ -11377,13 +11377,13 @@ header.masthead {
 }
 /* Contact title readability box */
 #contact .contact-title-box {
-    display: inline-block;
-    background: rgba(255, 255, 255, 0.85); /* hafif şeffaf beyaz */
-    padding: 30px 40px;
-    border-radius: 12px;
-    margin-bottom: 40px;
+    max-width: 720px;
+    margin: 0 auto 50px auto;
+    background: rgba(255, 255, 255, 0.88);
+    padding: 24px 32px;
+    border-radius: 14px;
+    text-align: center;
 }
-
 /* Başlık rengi */
 #contact .contact-title-box h2 {
     color: #212529;
