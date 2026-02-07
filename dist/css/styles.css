@@ -11355,3 +11355,11 @@ header.masthead {
 #team .row {
   background: #ffffff !important;
 }
+/* FORCE WHITE BACKGROUND – FINAL */
+.section-white {
+  background-color: #ffffff !important;
+}
+
+.section-white * {
+  background-color: transparent;
+}
