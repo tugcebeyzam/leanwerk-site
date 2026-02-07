@@ -11422,11 +11422,38 @@ header.masthead {
 #contact textarea.form-control::placeholder {
     color: rgba(31, 45, 61, 0.6);
 }
-/* Contact title box */
-#contact .contact-title-box {
-    background: rgba(255, 255, 255, 0.85);
-    padding: 24px 32px;
-    max-width: 620px;
-    border-radius: 14px;
-    margin: 0 auto 40px auto;
+/* CONTACT TITLE BOX */
+.contact-title-box {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 25px 35px;
+  border-radius: 12px;
+  max-width: 720px;
+  margin: 0 auto 50px auto;
+}
+
+/* Contact subtitle küçültme */
+#contact .section-subheading {
+  margin-bottom: 0;
+  font-size: 1rem;
+  color: #444;
+}
+/* Contact form inputs */
+#contact input,
+#contact textarea {
+  background: rgba(173, 216, 230, 0.75); /* açık mavi şeffaf */
+  border: none;
+  color: #000;
+}
+
+#contact input::placeholder,
+#contact textarea::placeholder {
+  color: rgba(0, 0, 0, 0.55);
+}
+
+/* Focus efekti */
+#contact input:focus,
+#contact textarea:focus {
+  background: rgba(173, 216, 230, 0.9);
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
 }
