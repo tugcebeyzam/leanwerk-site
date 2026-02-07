@@ -11343,3 +11343,15 @@ header.masthead {
   border-radius: 8px;   /* hafif yumuşak köşe */
   background-color: #fff;
 }
+/* FORCE WHITE BACKGROUND FOR TEAM SECTION */
+#team {
+  background: #ffffff !important;
+}
+
+#team .container {
+  background: #ffffff !important;
+}
+
+#team .row {
+  background: #ffffff !important;
+}
