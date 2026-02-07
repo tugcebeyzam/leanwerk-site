@@ -11685,5 +11685,50 @@ section#contact textarea:focus {
   background-color: #1e5aa7;
   color: #fff;
 }
+.lw-header {
+  background: #ffffff;
+  border-bottom: 1px solid #e5e5e5;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.lw-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lw-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.lw-logo img {
+  height: 36px;
+}
+
+.lw-logo span {
+  font-size: 22px;
+  font-weight: 700;
+  color: #0b3c6d;
+}
+
+.lw-nav a {
+  margin-left: 28px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  color: #0b3c6d;
+}
+
+.lw-nav a:hover {
+  text-decoration: underline;
+}
 
 
