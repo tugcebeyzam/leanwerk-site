@@ -11730,5 +11730,57 @@ section#contact textarea:focus {
 .lw-nav a:hover {
   text-decoration: underline;
 }
+/* HEADER FOTOĞRAF ÜSTÜNDE */
+.overlay-header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background: rgba(10, 45, 80, 0.45); /* şeffaf mavi */
+  z-index: 1000;
+}
+
+/* Container */
+.lw-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 22px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo */
+.lw-logo {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  text-decoration: none;
+}
+
+.lw-logo img {
+  height: 44px; /* büyüttük */
+}
+
+.lw-logo span {
+  font-size: 26px; /* büyüttük */
+  font-weight: 700;
+  color: #ffffff;
+}
+
+/* Menü */
+.lw-nav a {
+  margin-left: 36px;
+  font-size: 18px; /* büyüttük */
+  font-weight: 500;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.lw-nav a:hover {
+  text-decoration: underline;
+}
+header.masthead {
+  padding-top: 140px;
+}
 
 
