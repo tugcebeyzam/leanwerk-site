@@ -11457,3 +11457,22 @@ header.masthead {
   outline: none;
   box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
 }
+/* FORCE CONTACT INPUT COLOR */
+section#contact input.form-control,
+section#contact textarea.form-control {
+  background-color: rgba(120, 170, 220, 0.75) !important;
+  border: none !important;
+  color: #000 !important;
+}
+
+section#contact input::placeholder,
+section#contact textarea::placeholder {
+  color: rgba(0, 0, 0, 0.6) !important;
+}
+
+section#contact input:focus,
+section#contact textarea:focus {
+  background-color: rgba(120, 170, 220, 0.9) !important;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25) !important;
+  outline: none !important;
+}
