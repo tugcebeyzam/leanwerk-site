@@ -11336,4 +11336,10 @@ header.masthead {
 #team {
   background-color: #ffffff;
 }
-
+.team-photo {
+  width: 260px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 8px;   /* hafif yumuşak köşe */
+  background-color: #fff;
+}
