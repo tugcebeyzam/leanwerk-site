@@ -11479,3 +11479,12 @@ section#contact textarea:focus {
 #services .section-heading {
     text-align: center !important;
 }
+#vision {
+  background: linear-gradient(
+    135deg,
+    #0b4f8a,
+    #0a3d6f
+  );
+  color: #ffffff;
+  padding: 100px 0;
+}
