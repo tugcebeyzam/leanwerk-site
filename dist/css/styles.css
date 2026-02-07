@@ -11631,5 +11631,59 @@ section#contact textarea:focus {
 .profile-box ul {
   padding-left: 20px;
 }
+/* TEAM SECTION */
+
+.team-member {
+  margin-top: 40px;
+}
+
+.team-photo {
+  width: 260px;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.team-role {
+  font-size: 0.95rem;
+  color: #6c757d;
+  margin-bottom: 10px;
+}
+
+/* Sadece mail üstü çizgi */
+.team-divider {
+  width: 40px;
+  height: 2px;
+  background-color: #1e5aa7;
+  margin: 12px auto;
+}
+
+.team-email a {
+  color: #1e5aa7;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.team-email a:hover {
+  text-decoration: underline;
+}
+
+/* Button */
+.team-btn {
+  display: inline-block;
+  margin-top: 18px;
+  padding: 10px 22px;
+  border: 1.5px solid #1e5aa7;
+  color: #1e5aa7;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+}
+
+.team-btn:hover {
+  background-color: #1e5aa7;
+  color: #fff;
+}
 
 
