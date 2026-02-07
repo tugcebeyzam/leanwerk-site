@@ -11395,3 +11395,16 @@ header.masthead {
     color: #555;
     font-style: italic;
 }
+/* Contact form inputs – soft blue glass look */
+#contact input.form-control,
+#contact textarea.form-control {
+    background: rgba(255, 255, 255, 0.75);
+    border: none;
+    border-radius: 10px;
+    color: #212529;
+}
+
+#contact input.form-control::placeholder,
+#contact textarea.form-control::placeholder {
+    color: #6c757d;
+}
