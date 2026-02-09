@@ -11685,58 +11685,58 @@ section#contact textarea:focus {
   background-color: #1e5aa7;
   color: #fff;
 }
+/* =========================
+   HEADER (BEYAZ – TEMİZ)
+========================= */
+
 .lw-header {
   background: #ffffff;
-  border-bottom: 1px solid #e5e5e5;
-  position: sticky;
-  top: 0;
+  position: relative;
   z-index: 1000;
+  border-bottom: 1px solid #eee; /* istersen silebilirsin */
 }
 
+/* HEADER CONTAINER */
 .lw-container {
   max-width: 1200px;
+  height: 100px;
   margin: 0 auto;
-  padding: 16px 24px;
+  padding: 0 32px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
+/* LOGO */
 .lw-logo {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 14px;
   text-decoration: none;
 }
 
 .lw-logo img {
-  height: 36px;
+  height: 48px; /* logo büyüklüğü */
+  width: auto;
 }
 
 .lw-logo span {
-  font-size: 22px;
+  font-size: 28px;
   font-weight: 700;
-  color: #0b3c6d;
+  color: #0a2540; /* koyu lacivert */
 }
 
+/* MENU */
 .lw-nav a {
-  margin-left: 28px;
+  margin-left: 32px;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 500;
-  color: #0b3c6d;
+  color: #0a2540;
 }
 
 .lw-nav a:hover {
-  text-decoration: underline;
-}
-/* HEADER FOTOĞRAF ÜSTÜNDE */
-.overlay-header {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  background: rgba(10, 45, 80, 0.45); /* şeffaf mavi */
-  z-index: 1000;
+  color: #1f6ae1;
 }
 
 /* Container */
