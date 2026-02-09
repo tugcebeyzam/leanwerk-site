@@ -11787,38 +11787,46 @@ header.masthead {
   position: relative;
 }
 
-/* WhatsApp Button */
-.wp-contact-btn {
-  all: unset;                /* link stillerini sıfırlar */
+.hero-whatsapp-btn {
   position: absolute;
-  cursor: pointer;
+  right: 110px;
+  bottom: 140px;
 
-  right: 180px;              /* sola almak için */
-  bottom: 120px;             /* aşağı almak için */
+  display: inline-flex;
+  align-items: center;
 
-  background-color: #FFC800; /* Wix sarısı */
+  background-color: #25D366;
   color: #ffffff;
 
-  padding: 18px 34px;
-  font-size: 16px;
+  padding: 20px 38px 20px 60px; /* solda logo için boşluk */
+  font-size: 15px;
   font-weight: 700;
   letter-spacing: 1px;
   text-transform: uppercase;
 
-  border-radius: 6px;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+  border-radius: 8px;
+  text-decoration: none;
+
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
   transition: all 0.25s ease;
 }
 
-/* Hover */
-.wp-contact-btn:hover {
-  background-color: #e6b800;
-  transform: translateY(-2px);
-}
-.masthead {
-  min-height: 100vh;
-  background-size: cover;
-  background-position: center bottom;
-  position: relative;
+/* WhatsApp icon – pseudo element */
+.hero-whatsapp-btn::before {
+  content: "";
+  width: 22px;
+  height: 22px;
+
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  position: absolute;
+  left: 24px;
 }
 
+/* Hover */
+.hero-whatsapp-btn:hover {
+  background-color: #1EBE5D;
+  transform: translateY(-2px);
+}
