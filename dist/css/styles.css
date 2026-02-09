@@ -11862,3 +11862,67 @@ header.masthead {
   background-color: #1EBE5D;
   transform: translateY(-2px);
 }
+/* CONTACT SECTION */
+.contact-section {
+  position: relative;
+  background: url("assets/img/contact-bg.jpg") center/cover no-repeat;
+  padding: 120px 0;
+  color: #fff;
+}
+
+.contact-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(8, 42, 74, 0.85);
+}
+
+.contact-container {
+  position: relative;
+  z-index: 2;
+}
+
+.contact-left h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.contact-left span {
+  font-weight: 300;
+  font-size: 42px;
+}
+
+.contact-form label {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  background: #2f74b5;
+  border: 1px solid rgba(255,255,255,0.4);
+  padding: 14px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: rgba(255,255,255,0.7);
+}
+
+.contact-form button {
+  width: 100%;
+  margin-top: 25px;
+  padding: 14px;
+  background: #0b4f8a;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background: #083b66;
+}
