@@ -11866,7 +11866,7 @@ header.masthead {
 .contact-section {
   position: relative;
   background: url("assets/img/contact-bg.jpg") center/cover no-repeat;
-  padding: 120px 0;
+  padding: 80px 0;
   color: #fff;
 }
 
@@ -11882,14 +11882,14 @@ header.masthead {
 }
 
 .contact-left h2 {
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 700;
   line-height: 1.2;
 }
 
 .contact-left span {
   font-weight: 300;
-  font-size: 42px;
+  font-size: 30px;
 }
 
 .contact-form label {
@@ -11902,7 +11902,7 @@ header.masthead {
   width: 100%;
   background: #2f74b5;
   border: 1px solid rgba(255,255,255,0.4);
-  padding: 14px;
+  padding: 10px;
   color: #fff;
   margin-bottom: 10px;
 }
