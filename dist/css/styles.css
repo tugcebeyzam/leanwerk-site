@@ -11783,22 +11783,54 @@ header.masthead {
   padding-top: 140px;
 }
 /* Masthead referansı */
+/* =========================
+   MASTHEAD / HERO
+========================= */
+
+header.masthead {
+  padding-top: 140px; /* navbar boşluğu */
+}
+
 .masthead {
   position: relative;
+  min-height: 100vh;                 /* arka plan uzatıldı */
+  background-size: cover;
+  background-position: center bottom;
 }
+
+/* Başlık */
+.masthead-heading {
+  font-size: 56px;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* Alt başlık */
+.masthead-subheading {
+  margin-top: 20px;
+  font-size: 22px;
+  font-style: italic;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* =========================
+   WHATSAPP BUTTON
+========================= */
 
 .hero-whatsapp-btn {
   position: absolute;
   right: 110px;
-  bottom: 140px;
+  bottom: 100px; /* biraz aşağı */
 
   display: inline-flex;
   align-items: center;
 
-  background-color: #25D366;
+  background-color: #25D366; /* WhatsApp yeşili */
   color: #ffffff;
 
-  padding: 20px 38px 20px 60px; /* solda logo için boşluk */
+  padding: 20px 38px 20px 60px; /* solda ikon için boşluk */
   font-size: 15px;
   font-weight: 700;
   letter-spacing: 1px;
@@ -11811,7 +11843,7 @@ header.masthead {
   transition: all 0.25s ease;
 }
 
-/* WhatsApp icon – pseudo element */
+/* WhatsApp icon (CSS pseudo element) */
 .hero-whatsapp-btn::before {
   content: "";
   width: 22px;
