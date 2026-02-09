@@ -11815,4 +11815,10 @@ header.masthead {
   background-color: #e6b800;
   transform: translateY(-2px);
 }
+.masthead {
+  min-height: 90vh;
+  background-size: cover;
+  background-position: center bottom;
+  position: relative;
+}
 
