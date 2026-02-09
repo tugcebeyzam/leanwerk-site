@@ -11905,4 +11905,9 @@ section#team .team-divider {
 section#team .team-btn {
   margin-top: 10px !important;
 }
+#team,
+.team {
+  padding-top: 40px !important;
+  padding-bottom: 40px !important;
+}
 
