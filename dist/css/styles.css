@@ -11782,5 +11782,34 @@ section#contact textarea:focus {
 header.masthead {
   padding-top: 140px;
 }
+.masthead {
+  position: relative; /* ÇOK ÖNEMLİ */
+}
+
+.wp-contact-btn {
+  position: absolute;
+  right: 180px;      /* sola almak için */
+  bottom: 120px;     /* aşağı almak için */
+
+  background-color: #FFC800; /* Wix sarısı */
+  color: #ffffff;
+
+  padding: 18px 34px;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  border-radius: 6px;
+  text-decoration: none;
+
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+  transition: all 0.25s ease;
+}
+
+.wp-contact-btn:hover {
+  background-color: #e6b800;
+  transform: translateY(-2px);
+}
 
 
