@@ -11527,152 +11527,66 @@ section#contact textarea:focus {
   color: #3b4a6b;
   line-height: 1.6;
 }
-.team-member img {
-  border: none !important;
-  box-shadow: none !important;
-  background: transparent !important;
-}
+/* =========================
+   TEAM SECTION (CLEAN)
+========================= */
+
+/* TEAM MEMBER */
 .team-member {
   text-align: center;
+  margin-top: 16px;
 }
 
-.team-member::after {
-  content: "";
-  display: block;
-  width: 60px;              /* çizgi uzunluğu */
-  height: 1px;              /* ince çizgi */
-  background-color: #1e5aa7; /* kurumsal mavi */
-  margin: 14px auto 10px;   /* üst-alt boşluk */
-}
-.team-email a {
-  color: #1e5aa7;
-  text-decoration: none;
-}
-
-.team-email a:hover {
-  text-decoration: underline;
-}
-
-
-/* Button */
-.team-btn {
-  display: inline-block;
-  padding: 10px 18px;
-  border: 1px solid #1e5aa7;
-  color: #1e5aa7;
-  font-size: 14px;
-  text-decoration: none;
-  border-radius: 4px;
-  transition: all 0.25s ease;
-}
-
-.team-btn:hover {
-  background-color: #1e5aa7;
-  color: #fff;
-}
-.team-divider {
-  width: 40px;
-  height: 1px;
-  background-color: #1e5aa7;
-  margin: 12px auto 16px;
-}
-.profile-page {
-  padding: 80px 0;
-  background: #f2f2f2;
-}
-
-.profile-container {
-  max-width: 1200px;
-  margin: auto;
-  display: flex;
-  gap: 60px;
-  align-items: flex-start;
-}
-
-.profile-photo img {
-  width: 380px;
-  height: auto;
-  border-radius: 50%;
-  object-fit: cover;
-}
-
-.profile-content h1 {
-  font-size: 36px;
-  margin-bottom: 5px;
-}
-
-.profile-content h3 {
-  color: #1e5aa7;
-  margin-bottom: 25px;
-}
-
-.profile-intro {
-  background: #fff;
-  padding: 20px;
-  margin-bottom: 30px;
-}
-
-.profile-box {
-  background: #fff;
-  padding: 25px;
-  margin-bottom: 20px;
-}
-
-.profile-box h4 {
-  color: #1e5aa7;
-  margin-bottom: 10px;
-}
-
-.profile-box ul {
-  padding-left: 20px;
-}
-/* TEAM SECTION */
-
-.team-member {
-  margin-top: 20px;
-}
-
+/* FOTO */
+.team-member img,
 .team-photo {
   width: 260px;
   height: auto;
   border-radius: 12px;
-  margin-bottom: 12px;
+  border: none;
+  box-shadow: none;
+  background: transparent;
+  margin-bottom: 10px;
 }
 
-.team-role {
-  font-size: 0.95rem;
-  color: #6c757d;
-  margin-bottom: 6px;
-}
-
-/* Sadece mail üstü çizgi */
-.team-divider {
-  width: 40px;
-  height: 2px;
+/* İSİM ALT ÇİZGİ */
+.team-member::after {
+  content: "";
+  display: block;
+  width: 36px;
+  height: 1px;
   background-color: #1e5aa7;
-  margin: 12px auto;
+  margin: 8px auto;
 }
 
+/* ROL */
+.team-role {
+  font-size: 0.9rem;
+  color: #6c757d;
+  margin-bottom: 4px;
+}
+
+/* MAİL */
 .team-email a {
   color: #1e5aa7;
   text-decoration: none;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
 }
 
 .team-email a:hover {
   text-decoration: underline;
 }
 
-/* Button */
+/* BUTTON */
 .team-btn {
   display: inline-block;
-  margin-top: 12px;
-  padding: 10px 22px;
+  margin-top: 10px;
+  padding: 8px 18px;
   border: 1.5px solid #1e5aa7;
   color: #1e5aa7;
   text-decoration: none;
   border-radius: 6px;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   transition: all 0.2s ease;
 }
 
@@ -11680,6 +11594,7 @@ section#contact textarea:focus {
   background-color: #1e5aa7;
   color: #fff;
 }
+
 /* =========================
    HEADER (BEYAZ – TEMİZ)
 ========================= */
