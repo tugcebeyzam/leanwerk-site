@@ -11959,4 +11959,35 @@ header.masthead {
   padding-top: 40px !important;
   padding-bottom: 40px !important;
 }
+/* ===== OUR TEAM FORCE COMPACT ===== */
+
+section#team {
+  padding-top: 40px !important;
+  padding-bottom: 40px !important;
+}
+
+section#team .row {
+  margin-top: 0 !important;
+}
+
+section#team .col-lg-4,
+section#team .col-md-6 {
+  margin-top: 20px !important;
+}
+
+section#team .team-member {
+  margin-top: 0 !important;
+}
+
+section#team .team-member img {
+  margin-bottom: 10px !important;
+}
+
+section#team .team-divider {
+  margin: 6px auto !important;
+}
+
+section#team .team-btn {
+  margin-top: 10px !important;
+}
 
