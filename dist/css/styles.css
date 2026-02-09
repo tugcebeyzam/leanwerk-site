@@ -11927,3 +11927,12 @@ header.masthead {
 .contact-form button:hover {
   background: #083b66;
 }
+/* === HEADER FIX (ZORLA) === */
+.lw-header {
+  position: relative !important;
+  background: #ffffff !important;
+}
+
+.lw-header * {
+  color: #0a2540 !important;
+}
