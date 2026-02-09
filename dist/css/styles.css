@@ -11552,12 +11552,7 @@ section#contact textarea:focus {
 .team-email a:hover {
   text-decoration: underline;
 }
-.team-divider {
-  width: 40px;
-  height: 1px;
-  background-color: #1e5aa7;
-  margin: 12px auto 16px;
-}
+
 
 /* Button */
 .team-btn {
@@ -11634,20 +11629,20 @@ section#contact textarea:focus {
 /* TEAM SECTION */
 
 .team-member {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .team-photo {
   width: 260px;
   height: auto;
   border-radius: 12px;
-  margin-bottom: 20px;
+  margin-bottom: 12px;
 }
 
 .team-role {
   font-size: 0.95rem;
   color: #6c757d;
-  margin-bottom: 10px;
+  margin-bottom: 6px;
 }
 
 /* Sadece mail üstü çizgi */
@@ -11671,7 +11666,7 @@ section#contact textarea:focus {
 /* Button */
 .team-btn {
   display: inline-block;
-  margin-top: 18px;
+  margin-top: 12px;
   padding: 10px 22px;
   border: 1.5px solid #1e5aa7;
   color: #1e5aa7;
