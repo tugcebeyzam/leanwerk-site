@@ -11931,3 +11931,32 @@ header.masthead {
 .lw-header * {
   color: #0a2540 !important;
 }
+/* ===== FORCE TEAM COMPACT ===== */
+
+.team .team-member {
+  margin-top: 16px !important;
+}
+
+.team .team-photo {
+  margin-bottom: 10px !important;
+}
+
+.team .team-role {
+  margin-bottom: 4px !important;
+}
+
+.team .team-divider {
+  margin: 6px auto 8px !important;
+  height: 1px !important;
+}
+
+.team .team-btn {
+  margin-top: 10px !important;
+}
+
+/* TEAM SECTION GENEL BOŞLUK */
+.team {
+  padding-top: 40px !important;
+  padding-bottom: 40px !important;
+}
+
