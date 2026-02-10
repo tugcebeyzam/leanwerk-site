@@ -216,4 +216,31 @@ body {
   background-color: #1fb6c9; /* Wix’e yakın turkuaz */
   border-radius: 1px;
 }
+/* =========================
+   UNSERE VISION
+========================= */
+
+.vision {
+  background-color: #06345f; /* Wix koyu lacivert */
+  padding: 90px 20px;
+}
+
+.vision-container {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.vision h2 {
+  font-size: 32px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 28px;
+}
+
+.vision p {
+  font-size: 15px;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.9);
+}
 
