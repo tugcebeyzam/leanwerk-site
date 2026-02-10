@@ -309,4 +309,12 @@ body {
   background: #0a2540;
   color: #fff;
 }
+/* FORCE button size fix */
+.team-btn {
+  display: inline-block !important;
+  width: auto !important;
+  min-width: 0 !important;
+  max-width: fit-content !important;
+  padding: 6px 18px !important;
+}
 
