@@ -148,4 +148,56 @@ body {
     grid-template-columns: 1fr;
   }
 }
+/* === UNSERE SCHWERPUNKTE (WIX STYLE) === */
+
+.focus {
+  background: #eef6f8;
+  padding: 120px 0;
+}
+
+.focus-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 80px;
+}
+
+.focus-left h2 {
+  font-size: 42px;
+  font-weight: 600;
+  color: #003a63;
+  line-height: 1.2;
+}
+
+.focus-right {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px 60px;
+}
+
+.focus-item h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #003a63;
+  margin-bottom: 8px;
+}
+
+.focus-item p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #4a6b82;
+  margin: 0;
+}
+
+/* Responsive (mobilde Wix gibi alt alta) */
+@media (max-width: 900px) {
+  .focus-container {
+    grid-template-columns: 1fr;
+  }
+
+  .focus-right {
+    grid-template-columns: 1fr;
+  }
+}
 
