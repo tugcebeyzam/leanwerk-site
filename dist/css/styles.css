@@ -11237,19 +11237,7 @@ header.masthead .masthead-heading {
     padding: 0 100px 20px 20px;
   }
 }
-.team-member {
-  margin-bottom: 3rem;
-  text-align: center;
-}
-.team-member img {
-  width: 14rem;
-  height: 14rem;
-  border: 0.5rem solid rgba(0, 0, 0, 0.1);
-}
-.team-member h4, .team-member .h4 {
-  margin-top: 1.5rem;
-  margin-bottom: 0;
-}
+
 
 .img-brand {
   height: 2.75rem;
@@ -11337,25 +11325,9 @@ header.masthead {
 #team {
   background-color: #ffffff;
 }
-.team-photo {
-  width: 260px;
-  height: 320px;
-  object-fit: cover;
-  border-radius: 8px;   /* hafif yumuşak köşe */
-  background-color: #fff;
-}
-/* FORCE WHITE BACKGROUND FOR TEAM SECTION */
-#team {
-  background: #ffffff !important;
+
 }
 
-#team .container {
-  background: #ffffff !important;
-}
-
-#team .row {
-  background: #ffffff !important;
-}
 /* FORCE WHITE BACKGROUND – FINAL */
 .section-white {
   background-color: #ffffff !important;
@@ -11526,109 +11498,16 @@ section#contact textarea:focus {
   font-size: 15px;
   color: #3b4a6b;
   line-height: 1.6;
-/* =========================
-   OUR TEAM – FINAL FIX
-========================= */
 
-.our-team {
-  padding: 32px 0;           /* SAYFAYI KISALTAN ANA AYAR */
-  background: #ffffff;
-  text-align: center;
-}
 
-.our-team-container {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0 24px;
-}
 
-.our-team-title {
-  font-size: 32px;
-  font-weight: 700;
-  margin-bottom: 4px;
-  color: #0a2540;
-}
 
-.our-team-subtitle {
-  font-size: 15px;
-  color: #6c757d;
-  margin-bottom: 24px;
-}
 
-.our-team-grid {
-  display: flex;
-  justify-content: center;
-  gap: 48px;
-  flex-wrap: wrap;
-}
 
-/* TEAM CARD */
-.team-card {
-  width: 260px;
-}
 
-/* FOTO – sabit, kayma yok */
-.team-card img {
-  width: 100%;
-  height: 320px;
-  object-fit: cover;
-  border-radius: 12px;
-  margin-bottom: 8px;
-  border: none;
-  box-shadow: none;
-}
 
-/* İSİM */
-.team-card h3 {
-  font-size: 18px;
-  margin-bottom: 2px;
-  color: #0a2540;
-}
 
-/* ROL */
-.team-role {
-  display: block;
-  font-size: 14px;
-  color: #6c757d;
-  margin-bottom: 6px;
-}
 
-/* MAIL */
-.team-mail {
-  display: block;
-  font-size: 14px;
-  color: #1e5aa7;
-  text-decoration: none;
-  margin-bottom: 8px;
-}
-
-.team-mail:hover {
-  text-decoration: underline;
-}
-
-/* BUTTON – ALTINDA MAVİ ÇİZGİ YOK */
-.team-btn {
-  display: inline-block;
-  padding: 8px 18px;
-  border: 1.5px solid #1e5aa7;
-  color: #1e5aa7;
-  text-decoration: none;
-  border-radius: 6px;
-  font-size: 0.85rem;
-  margin-top: 6px;
-  box-shadow: none;
-}
-
-.team-btn::before,
-.team-btn::after {
-  display: none !important;
-  content: none !important;
-}
-
-.team-btn:hover {
-  background-color: #1e5aa7;
-  color: #fff;
-}
 
 /* =========================
    HEADER (BEYAZ – TEMİZ)
@@ -11873,15 +11752,6 @@ header.masthead {
   background: #083b66;
 }
 /* === HEADER FIX (ZORLA) === */
-.lw-header {
-  position: relative !important;
-  background: #ffffff !important;
-}
-
-.lw-header * {
-  color: #0a2540 !important;
-}
-/* ===== OUR TEAM FORCE COMPACT ===== */
 
 section#team {
   padding-top: 40px !important;
@@ -11896,25 +11766,182 @@ section#team .col-lg-4,
 section#team .col-md-6 {
   margin-top: 20px !important;
 }
+/* =====================================================
+   HEADER (BEYAZ – STABİL – BOZULMAZ)
+===================================================== */
 
-section#team .team-member {
-  margin-top: 0 !important;
+.lw-header {
+  background: #ffffff;
+  position: relative;
+  z-index: 1000;
+  border-bottom: 1px solid #eee;
 }
 
-section#team .team-member img {
-  margin-bottom: 10px !important;
+.lw-container {
+  max-width: 1200px;
+  height: 64px;
+  margin: 0 auto;
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-section#team .team-divider {
-  margin: 6px auto !important;
+.lw-logo {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  text-decoration: none;
 }
 
-section#team .team-btn {
-  margin-top: 10px !important;
+.lw-logo img {
+  height: 44px;
 }
-#team,
-.team {
-  padding-top: 40px !important;
-  padding-bottom: 40px !important;
+
+.lw-logo span {
+  font-size: 26px;
+  font-weight: 700;
+  color: #0a2540;
+}
+
+.lw-nav a {
+  margin-left: 28px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #0a2540;
+  text-decoration: none;
+}
+
+.lw-nav a:hover {
+  color: #1f6ae1;
+}
+
+/* =====================================================
+   HERO / MASTHEAD (AYNEN KALIR)
+===================================================== */
+
+header.masthead {
+  padding-top: 140px;
+}
+
+.masthead {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.masthead-heading {
+  font-size: 56px;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+}
+
+.masthead-subheading {
+  margin-top: 20px;
+  font-size: 22px;
+  font-style: italic;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* =====================================================
+   OUR TEAM (SADECE BURASI DARALTILDI)
+===================================================== */
+
+#team {
+  padding: 40px 0;
+  background: #ffffff;
+  text-align: center;
+}
+
+#team h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: #0a2540;
+}
+
+#team p {
+  font-size: 15px;
+  color: #6c757d;
+  margin-bottom: 28px;
+}
+
+/* Kart */
+#team .team-member {
+  margin-top: 20px;
+}
+
+/* Foto – sabit, kayma yok */
+#team .team-member img {
+  width: 260px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 8px;
+  border: none;
+  box-shadow: none;
+}
+
+/* İsim */
+#team .team-member h3,
+#team .team-member h4 {
+  font-size: 18px;
+  margin-bottom: 2px;
+  color: #0a2540;
+}
+
+/* Rol */
+#team .team-role {
+  font-size: 14px;
+  color: #6c757d;
+  margin-bottom: 6px;
+}
+
+/* Mail */
+#team a[href^="mailto"] {
+  display: block;
+  font-size: 14px;
+  color: #1e5aa7;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+#team a[href^="mailto"]:hover {
+  text-decoration: underline;
+}
+
+/* Button – ALTINDA ÇİZGİ YOK */
+#team .team-btn {
+  display: inline-block;
+  padding: 8px 18px;
+  border: 1.5px solid #1e5aa7;
+  color: #1e5aa7;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 0.85rem;
+}
+
+#team .team-btn:hover {
+  background-color: #1e5aa7;
+  color: #ffffff;
+}
+
+/* =====================================================
+   CONTACT (AYNEN KALIR)
+===================================================== */
+
+.contact-section {
+  position: relative;
+  background: url("assets/img/contact-bg.jpg") center/cover no-repeat;
+  padding: 80px 0;
+  color: #ffffff;
+}
+
+.contact-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(8, 42, 74, 0.85);
 }
 
