@@ -152,7 +152,7 @@ body {
 
 .focus {
   background: #eef6f8;
-  padding: 120px 0;
+  padding: 80px 0;
 }
 
 .focus-container {
@@ -199,5 +199,21 @@ body {
   .focus-right {
     grid-template-columns: 1fr;
   }
+}
+/* Madde işareti */
+.focus-item {
+  position: relative;
+  padding-left: 18px;
+}
+
+.focus-item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 6px;
+  width: 6px;
+  height: 6px;
+  background-color: #1fb6c9; /* Wix’e yakın turkuaz */
+  border-radius: 1px;
 }
 
