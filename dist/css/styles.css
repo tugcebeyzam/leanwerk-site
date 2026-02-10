@@ -11944,4 +11944,7 @@ header.masthead {
   inset: 0;
   background: rgba(8, 42, 74, 0.85);
 }
+body {
+  background: red !important;
+}
 
