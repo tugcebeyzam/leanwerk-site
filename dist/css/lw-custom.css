@@ -99,3 +99,53 @@ body {
 .whatsapp-btn:hover {
   background: #1EBE5D;
 }
+/* SCHWERPUNKTE */
+.focus {
+  background: #eef6f8;
+  padding: 100px 0;
+}
+
+.focus-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 60px;
+}
+
+.focus-left h2 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #083a5a;
+  line-height: 1.2;
+}
+
+.focus-right {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px 50px;
+}
+
+.focus-item h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #0a2540;
+  margin-bottom: 8px;
+}
+
+.focus-item p {
+  font-size: 14px;
+  color: #4a647a;
+  line-height: 1.5;
+}
+@media (max-width: 900px) {
+  .focus-container {
+    grid-template-columns: 1fr;
+  }
+
+  .focus-right {
+    grid-template-columns: 1fr;
+  }
+}
+
