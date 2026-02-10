@@ -17,9 +17,9 @@ body {
 
 .lw-container {
   max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 40px;
   height: 64px;
+  margin: 0 auto;
+  padding: 0 32px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -28,17 +28,17 @@ body {
 .lw-logo {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 12px;
   text-decoration: none;
 }
 
 .lw-logo img {
-  height: 40px;
+  height: 38px;
 }
 
 .lw-logo span {
   font-size: 22px;
-  font-weight: 400; /* Wix gibi ince */
+  font-weight: 400; /* WIX GİBİ İNCE */
   color: #0a2540;
 }
 
@@ -57,52 +57,45 @@ body {
 /* HERO */
 .hero {
   position: relative;
-  min-height: 90vh;
-  background: url("../assets/hero.jpg") center right / cover no-repeat;
+  min-height: calc(100vh - 64px);
+  background: url("../assets/img/hero.jpg") center / cover no-repeat;
   display: flex;
   align-items: center;
-  padding-left: 80px;
-}
-
-.hero::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: rgba(6, 40, 70, 0.75);
+  padding-left: 120px;
 }
 
 .hero-left {
-  position: relative;
   max-width: 420px;
-  color: #fff;
 }
 
-.hero-left h1 {
-  font-size: 44px;
+.hero h1 {
+  font-size: 48px;
   font-weight: 600;
-  line-height: 1.2;
+  color: #ffffff;
   margin-bottom: 20px;
 }
 
-.hero-left p {
-  font-size: 15px;
+.hero p {
+  font-size: 16px;
   font-weight: 400;
+  color: #ffffff;
   line-height: 1.6;
 }
 
 /* WHATSAPP BUTTON */
 .whatsapp-btn {
   position: absolute;
-  bottom: 40px;
-  right: 40px;
-  background: #25d366;
-  color: #fff;
-  padding: 10px 16px;
-  font-size: 13px;
-  border-radius: 4px;
+  right: 60px;
+  bottom: 60px;
+  background: #25D366;
+  color: #ffffff;
+  padding: 14px 22px;
+  border-radius: 6px;
   text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .whatsapp-btn:hover {
-  background: #1ebe5d;
+  background: #1EBE5D;
 }
