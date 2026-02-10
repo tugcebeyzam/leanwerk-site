@@ -11947,4 +11947,27 @@ header.masthead {
 body {
   background: red !important;
 }
+/* ======================
+   OUR TEAM – SADECE BURASI
+   ====================== */
+
+.our-team {
+    padding: 60px 0;
+}
+
+.our-team .container {
+    max-width: 900px;   /* sadece team küçülür */
+}
+
+.our-team h2 {
+    font-size: 32px;
+}
+
+.our-team h3 {
+    font-size: 22px;
+}
+
+.our-team p {
+    font-size: 15px;
+}
 
