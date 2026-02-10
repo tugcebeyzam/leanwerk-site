@@ -11825,14 +11825,14 @@ header.masthead {
 }
 
 .masthead {
-  min-height: 100vh;
+  min-height: 70vh;
   background-size: cover;
   background-position: center bottom;
 }
 
 .masthead-heading {
-  font-size: 56px;
-  font-weight: 700;
+  font-size: 48px;
+  font-weight: 600;
   color: #ffffff;
   text-align: center;
 }
